@@ -1,21 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🦺 اپلیکیشن اختصاصی مهمانداران قطار
 
-# Run and deploy your AI Studio app
+این اپلیکیشن به منظور تسهیل فرآیند مدیریت شیفت‌ها، ثبت اطلاعات مسافران و گزارش‌دهی سریع حوادث یا تاخیرها، مخصوص مهمانداران محترم شرکت‌های ریلی طراحی و توسعه یافته است. ظاهر این برنامه با تم مدرن (سرمه‌ای-طلایی) و فونت خوانای **وزیرمتن** جهت استفاده راحت در تکان‌های قطار بهینه‌سازی شده است.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/fa94024f-b66a-4191-82b8-2f36ea40a0fc
+## 📥 دانلود و نصب برنامه
 
-## Run Locally
+برای دانلود مستقیم آخرین نسخه برنامه روی دکمه زیر کلیک کنید:
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+[![دانلود مستقیم APK](https://shields.io)](لینک_دانلود_فایل_ای_پی_کی_شما)
+
+> 💡 **راهنمای نصب:** پس از دانلود، ممکن است گوشی شما هشدار `Unknown Sources` (منابع ناشناس) بدهد. برای نصب، گزینه Allow یا چند لحظه تایید را بزنید تا برنامه بدون مشکل نصب شود.
+
+---
+
+## ✨ ویژگی‌های کلیدی برنامه
+
+* 📱 **رابط کاربری مدرن:** طراحی شده بر اساس متریال دیزاین ۳ با کنتراست بالا.
+* 🌙 **تم تاریک (Dark Mode):** مخصوص شیفت‌های شب قطار برای جلوگیری از خستگی چشم.
+* 📋 **مدیریت لیست مسافران:** دسترسی سریع به شماره کوپه و بلیت‌ها.
+* ⚠️ **ثبت حوادث و تاخیرها:** گزارش‌دهی سریع وضعیت قطار در طول مسیر.
+* 🔍 **تایپوگرافی خوانا:** استفاده از فونت استاندارد وزیرمتن با ابعاد بزرگ.
+
+---
+
+## 📸 نمای محیط برنامه
 
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+| صفحه اصلی (تم روز) | صفحه شیفت شب (تم تاریک) |
+| :-: | :-: |
+| <img src="لینک_عکس_اول" width="250"> | <img src="لینک_عکس_دوم" width="250"> |
+
+---
+
+## 📞 پشتیبانی و بازخورد
+در صورت بروز هرگونه باگ یا نیاز به افزودن امکانات جدید، می‌توانید از طریق بخش **Issues** در همین ریپازیتوری با من در ارتباط باشید.
