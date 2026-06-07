@@ -1,0 +1,6 @@
+{
+  "name": "سیرنامه",
+  "description": "اپلیکیشن حرفه‌ای همراه مهمانداران قطار برای ثبت دقیق سیرها، مدیریت شیفت‌ها و ثبت خاطرات سفر به همراه توصیههای کتاب، فیلم و پادکست",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
